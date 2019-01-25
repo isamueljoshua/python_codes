@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Sep 22 12:03:35 2017
-
-@author: Administrator
-"""
 
 # Program to count the number of occourences of a letter in python
 word = 'samuel joshua'
