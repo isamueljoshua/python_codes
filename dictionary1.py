@@ -2,6 +2,7 @@
 
 # Program to count the number of occourences of a letter in python
 word = 'samuel joshua'
+# Method 1
 d = dict()
 for c in word:
     if c not in d:
@@ -10,6 +11,8 @@ for c in word:
         d[c] = d[c] + 1
 print("The number of occourences of a letter in my name")
 print (d)
+
+# Method 2
 print ("Using the get method")
 # get returns the value of the key a 
 print (d.get('a',0))
