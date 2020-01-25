@@ -10,10 +10,21 @@ for line in hand:
     actual period (i.e., it is not a wildcard between the square brackets)
     '''
     # if re.search('^X\S*: [0-9.]+', line) :
-        # print(line)
+    #     print(line)
+    # Output
+    '''
+    X-DSPAM-Confidence: 0.8475
+    X: 0.8475
+    X-DSPAM-Conf: 0.8475
+    '''
 
     # strict match using findall() and the parenthesis () to get the number only from the match
     x = re.findall('^X\S*: ([0-9.]+)', line)
     if len(x) > 0:
-        # print (line)
         print(x)
+    # Output
+    '''
+    ['0.8475']
+    ['0.8475']
+    ['0.8475']
+    '''
