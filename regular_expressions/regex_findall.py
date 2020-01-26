@@ -12,7 +12,7 @@ import re
 hand = open('mail_addresses.txt')
 for line in hand:
     line = line.rstrip()
-    x = re.findall('\S+@\S+', line)
+    # x = re.findall('\S+@\S+', line)
     # output
     '''
     ['stephen.marquard@uct.ac.za']
