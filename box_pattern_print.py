@@ -9,6 +9,12 @@ print the below pattern
 """
 
 def boxPrint(symbol, width, height):
+    if len(symbol) != 1:
+        raise Exception('"symbol" needs to be a string of length 1.')
+
+    if (width < 2) or (height < 2):
+        raise Exception('"width" and "height" must be greater than or equal to 2')
+
     # Print the first row in pattern
     print(symbol * width)
 
@@ -20,5 +26,6 @@ def boxPrint(symbol, width, height):
     # Print the last row in pattern
     print(symbol * width)
 
-
 boxPrint('*', 13, 5)
+# boxPrint('*', 1, 1)
+# boxPrint('**', 13, 5)
