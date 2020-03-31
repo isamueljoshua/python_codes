@@ -1,1 +1,2 @@
-@py.exe mapit.py %*
+@py.exe  D:\sams\PythonPrograms\Samplepgms\web_scraping\mapit.py %*
+PAUSE

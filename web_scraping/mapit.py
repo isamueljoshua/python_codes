@@ -1,4 +1,9 @@
 #! python3
+
+# Source + explanation for the whole program: https://automatetheboringstuff.com/chapter11/
+# Source running python with bat file and using win key + r https://automatetheboringstuff.com/appendixb/
+# the above header is also important to run the script with windows + r
+# to successfully run this scrip first install with -- py -m pip install pyperclip
 import webbrowser, sys, pyperclip
 
 import logging
@@ -21,11 +26,12 @@ try:
         # https://www.google.com/maps/place/870+Valencia+St,+San+Francisco,+CA+94110 works, also
         # https://www.google.com/maps/place/870 Valencia St, San+Francisco
         # so in general our logic must be https://www.google.com/maps/place/<ADDRESS>
-        address = pyperclip.paste('https://www.google.com/maps/place/' + address)
+        address = pyperclip.paste()
 
-    webbrowser.open()
+    webbrowser.open('https://www.google.com/maps/place/' + address)
 
 except Exception as e:
-    logging.error('Error: ' + e)
+    print(e)
+    logging.error('Error: ')
 
 logging.debug('End of program')

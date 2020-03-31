@@ -1,0 +1,9 @@
+2020-03-31 14:23:38,614 - DEBUG - Start of program 
+2020-03-31 14:24:22,213 - DEBUG - Start of program 
+2020-03-31 14:24:22,213 - ERROR - Error:  
+2020-03-31 14:24:22,213 - DEBUG - End of program 
+2020-03-31 14:24:45,659 - DEBUG - Start of program 
+2020-03-31 14:24:45,659 - ERROR - Error:  
+2020-03-31 14:24:45,660 - DEBUG - End of program 
+2020-03-31 14:26:27,784 - DEBUG - Start of program 
+2020-03-31 14:26:28,142 - DEBUG - End of program 
