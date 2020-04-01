@@ -14,7 +14,7 @@ print(res.text[:500])
 # to know more abt unicode: https://nedbatchelder.com/text/unipain.html
 playFile = open('RomeoJuliet.txt', 'wb')
 # iter_content returns the chunk of the data on each iteration in the loop
-for chunk in res.iter_content():
+for chunk in res.iter_content(100000):
     playFile.write(chunk)
 playFile.close()
 
