@@ -1,6 +1,9 @@
 import bs4
 import requests
 
+# other recommended websites
+# https://weather.gov
+# https://xlcd.com
 
 def getFlipkartPrice(requestUrl):
     res = requests.get(requestUrl)
