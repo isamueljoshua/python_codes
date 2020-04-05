@@ -41,3 +41,13 @@ time.sleep(6)
 browser.quit()
 
 # next step is to read the web pages
+browser = webdriver.Firefox(executable_path=r'geckodriver.exe')
+browser.get('http://automatetheboringstuff.com/')
+elem = browser.find_element_by_css_selector('body > div.main > div:nth-child(1) > blockquote:nth-child(5)')
+# get text inside the HTML element
+print(elem.text)
+
+# to get the entire web page text via selenium, pass html or body as parameter
+elem = browser.find_element_by_css_selector('html')
+print()
+print(elem.text)
