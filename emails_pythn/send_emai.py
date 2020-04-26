@@ -1,5 +1,7 @@
 import smtplib
 
+# SMTP  - Simple Mail Transfer Protocol, protocol for sending emails
+
 # domain name is smtp.gmail.com and port is 587
 # ports are part of internet address you are sending data to, some providers can change this port as well
 # for more info: https://automatetheboringstuff.com/chapter16/
@@ -17,7 +19,7 @@ conn.ehlo()
 conn.starttls()
 
 # login with your email id and password
-conn.login('your_mail_id@gmail.com', 'your_gmail_passwrd')
+conn.login('your_mail_id@gmail.com', 'your_gmail_passwrd_here')
 
 # send mail with from_address, to_address, and content with Subject: 
 # the return value is going to be the emails it failed to send to as a dict
