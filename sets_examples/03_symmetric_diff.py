@@ -30,10 +30,15 @@ n=set(list(map(int, input().split())))
 diff_m = m.difference(n)
 diff_n = n.difference(m)
 # print("set1 union",diff_m.sort())
+# O/P {9, 5}
+# print(diff_m)
+# O/P {11, 12}
 # print(diff_n)
 final_union = diff_m.union(diff_n)
+# O/P {9, 11, 12, 5}
 # print(final_union)
 final_int_ls = list(final_union)
+# O/P [9, 11, 12, 5]
 # print(final_int_ls)
 # print(type(final_int_ls))
 final_int_ls.sort()
