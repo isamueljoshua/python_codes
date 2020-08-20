@@ -25,4 +25,6 @@ en = input()
 er = set(input().split())
 fn = input()
 fr = set(input().split())
+# O/P {'11', '21', '5', '55', '10', '7', '4', '9'}
+print(er.symmetric_difference(fr))
 print(len(er.symmetric_difference(fr)))

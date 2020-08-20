@@ -26,4 +26,6 @@ en = input()
 ne = set(input().split())
 ef = input()
 nf = set(input().split())
+# O/P {'5', '4', '7', '9'}
+print(ne.difference(nf))
 print(len(ne.difference(nf)))
