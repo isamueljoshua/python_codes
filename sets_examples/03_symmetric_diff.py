@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 """
 Input:
 The first line of input contains an integer, M.

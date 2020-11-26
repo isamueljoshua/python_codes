@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 import pyautogui
 
 # all screen's pointer positon is (0,0) at top left corner and max at bottom right corner

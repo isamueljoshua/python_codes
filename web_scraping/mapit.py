@@ -1,4 +1,7 @@
 #! python3
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
 
 # Source + explanation for the whole program: https://automatetheboringstuff.com/chapter11/
 # Source running python with bat file and using win key + r https://automatetheboringstuff.com/appendixb/

@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 # to walk a directory os provides a os.walk() method
 import os
 

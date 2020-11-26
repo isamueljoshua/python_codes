@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 import string
 def print_rangoli(size):
     width = 4 * size - 3

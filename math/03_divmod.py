@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 """
 Problem source: https://www.hackerrank.com/challenges/python-mod-divmod/problem
 One of the built-in functions of Python is divmod, 

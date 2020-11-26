@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 """
 Mr. Anant Asankhya is the manager at the INFINITE hotel. The hotel has an infinite amount of rooms.
 

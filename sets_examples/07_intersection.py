@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 """
 .intersection()
 The .intersection() operator returns the intersection of a set and the set of elements in an iterable.

@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 import re
 hand = open('mbox-sh.txt')
 for line in hand:

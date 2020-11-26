@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 import pyautogui
 # to write anything to the interface, first open notepad, click on the position where you want to write then write
 # to do this in a single line

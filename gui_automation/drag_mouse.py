@@ -1,3 +1,8 @@
+
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 import pyautogui
 
 pyautogui.click() # click to put paint in focus

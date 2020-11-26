@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 """Input Format
 
 The first line contains integers n and m separated by a space.

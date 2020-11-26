@@ -1,4 +1,7 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 """
 Created on Fri Sep 22 12:36:34 2017
 """

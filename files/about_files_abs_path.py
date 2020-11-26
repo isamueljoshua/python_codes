@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 # we use \ for file path in Wnidows
 # for linux it is /
 

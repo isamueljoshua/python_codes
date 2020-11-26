@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 # IMAP - Internet Message Access Protocol
 # IMAP specifies how to communicate with your email provider server to retrieve emails that were sent to your email address
 

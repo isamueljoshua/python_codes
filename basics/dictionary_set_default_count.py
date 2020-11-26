@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 message = 'It was a cold Day in May'
 
 count = {}

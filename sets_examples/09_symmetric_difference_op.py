@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 """
 .symmetric_difference()
 The .symmetric_difference() operator returns a set with all the elements that are in the set and the iterable but not both.

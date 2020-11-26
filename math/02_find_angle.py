@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 """
 For this Hackerrank problem refer: https://www.hackerrank.com/challenges/find-angle
 

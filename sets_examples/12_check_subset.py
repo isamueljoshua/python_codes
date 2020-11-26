@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 """
 You are given two sets, A and B.
 Your job is to find whether set A is a subset of set B.

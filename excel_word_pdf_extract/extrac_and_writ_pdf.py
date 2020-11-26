@@ -1,6 +1,11 @@
+# coding: utf-8
+
 '''
 PyPDF2 can extract only text and not images from PDF
 '''
+
+__author__ = ["Samuel Joshua"]
+
 import PyPDF2
 
 # opening PDF in rb - read binary mode since PDFs are binary files

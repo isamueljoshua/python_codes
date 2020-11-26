@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 # import re
 # s = 'Hello from csev@umich.edu to cwen@iupui.edu about the meeting @2PM'
 # # findall returns a list of the matched strings

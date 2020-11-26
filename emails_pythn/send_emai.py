@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 import smtplib
 
 # SMTP  - Simple Mail Transfer Protocol, protocol for sending emails

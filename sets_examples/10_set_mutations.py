@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 """
 .update() or |=
 Update the set by adding elements from an iterable/another set.

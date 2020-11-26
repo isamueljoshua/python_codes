@@ -1,4 +1,6 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
 
 # Program to count the number of occourences of a letter in python
 word = 'samuel joshua'

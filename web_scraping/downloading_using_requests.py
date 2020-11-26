@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 import requests
 
 # to know more about requests module: https://requests.readthedocs.io/en/master/

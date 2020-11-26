@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 # fetch average of all elements in the array
 def average(array):
     # your code goes here

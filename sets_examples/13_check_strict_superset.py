@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 """
 You are given a set A and n other sets.
 Your job is to find whether set A is a strict superset of each of the N sets.

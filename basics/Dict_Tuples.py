@@ -1,4 +1,7 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 """
 Simple program to sort the dict items
 """

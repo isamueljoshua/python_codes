@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 '''
 Open a workbook and view with openpyxl
 '''

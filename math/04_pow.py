@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 """
 Problem source: https://www.hackerrank.com/challenges/python-power-mod-power/problem
 Powers or exponents in Python can be calculated using the built-in power function. Call the power function a^b as shown below:

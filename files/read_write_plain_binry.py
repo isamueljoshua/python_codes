@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 '''
 Plain text files - when you open them you can read their content easily
 Binary files - when you open these types of files, it is impossible to understand (e.g exe, pdf)

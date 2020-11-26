@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 # pyautogui uses pillow, using pillow and image based programs can be found at automatetheboringstuff.com/chapter17
 # for linux systems the scrot must be installed with sudo apt-get install scrot
 # on windows the above step is not required

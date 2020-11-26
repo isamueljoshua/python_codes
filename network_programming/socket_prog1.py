@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 # does not work on python3
 # import socket
 # mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

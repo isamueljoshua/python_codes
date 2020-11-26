@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 """
 Task:
 Apply your knowledge of the .add() operation to help your friend Rupal.

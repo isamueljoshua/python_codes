@@ -1,3 +1,7 @@
+# coding: utf-8
+
+__author__ = ["Samuel Joshua"]
+
 """
 .difference()
 The tool .difference() returns a set with all the elements from the set that are not in an iterable.
