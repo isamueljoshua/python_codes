@@ -12,4 +12,4 @@ for row_index in xrange(1, sheet.nrows):
          for col_index in xrange(sheet.ncols)}
     dict_list.append(d)
 
-print dict_list
+print (dict_list)

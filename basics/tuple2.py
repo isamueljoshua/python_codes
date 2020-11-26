@@ -12,10 +12,10 @@ t = list()
 for word in words:
     t.append((len(word), word))
     
-print t
+print(t)
 t.sort(reverse=True)
-print "After Sorting:",t
+print("After Sorting:",t)
 res = list()
 for length, word in t:
     res.append(word)
-print res
+print(res)

@@ -24,7 +24,7 @@ this means traffic keeps moving in both directions
 so we add assert statement to capture this before hand
 
 - if assert fails the program must crash, 
-- failing fast means we shorten the time bw the original cause of the bug and when ou notice the bug
+- failing fast means we shorten the time bw the original cause of the bug and when we notice the bug
 - Assertions are for detecting programmer errors that are not meant to be recovered from.
 - User errors should raise exceptions.
 '''
