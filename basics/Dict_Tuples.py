@@ -6,7 +6,9 @@ __author__ = ["Samuel Joshua"]
 Simple program to sort the dict items
 """
 
-d={'a':10,'b':1,'c':22}
+# Wrong solution
+
+d={'b':10,'a':1,'c':22}
 t=d.items()
 print (t)
 print ("After sorting the elements:")

@@ -2,6 +2,11 @@
 
 __author__ = ["Samuel Joshua"]
 
+"""
+
+Output - {'I': 2, 'T': 1, ' ': 6, 'W': 1, 'A': 4, 'S': 1, 'C': 1, 'O': 1, 'L': 1, 'D': 2, 'Y': 2, 'N': 1, 'M': 1}
+"""
+
 message = 'It was a cold Day in May'
 
 count = {}
