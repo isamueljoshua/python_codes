@@ -13,6 +13,17 @@ print the below pattern
 """
 
 def boxPrint(symbol, width, height):
+    """
+    Main function to print box pattern on the screen
+
+    Input:
+    symbol: Pattern symbol, like * or + which you want the entire box to be in
+    width: Width of the box
+    height: Height of the box
+
+    Output:
+    Box pattern on the screen
+    """
     if len(symbol) != 1:
         raise Exception('"symbol" needs to be a string of length 1.')
 

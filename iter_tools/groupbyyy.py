@@ -4,7 +4,7 @@ def print_groupby(iterable, keyfunc=None):
     for k, g in groupby(iterable, keyfunc):
         print(k)
         print(g)
-        print(list(g))
+        # print(list(g))
         print("key: '{}'--> group: {}".format(k, list(g)))
         
     # print([list(g) for k, g in groupby('AAAABBBCCD')])
