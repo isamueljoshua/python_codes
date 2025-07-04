@@ -1,5 +1,11 @@
+"""
+Here we use the xlrd library to open a workbook without using pandas
+
+Could be used when you don't know the sheet names of excel files
+"""
 from xlrd import open_workbook
 
+# Now .xls files only are supported in the xlrd libary
 book = open_workbook('ExcelTest.xlsx')
 sheet = book.sheet_by_index(0)
 

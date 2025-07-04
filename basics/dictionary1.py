@@ -1,3 +1,19 @@
+"""
+dictionary1.py
+
+Author: Samuel Joshua
+
+Description:
+    This script demonstrates two methods to count the number of occurrences of each letter in a given string (in this case, the name 'samuel joshua') using Python dictionaries.
+
+Features:
+    - Method 1: Uses a standard dictionary and checks if a character is already present before incrementing its count.
+    - Method 2: Uses the dictionary's get() method to simplify the counting logic.
+    - Demonstrates how to safely retrieve values from a dictionary using get(), with a default value if the key is not present.
+
+Usage:
+    Run the script to see the count of each character in the string and examples of using the get() method.
+"""
 # coding: utf-8
 
 __author__ = ["Samuel Joshua"]

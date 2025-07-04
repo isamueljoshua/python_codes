@@ -8,9 +8,11 @@ phoneNumbers = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
 mo = phoneNumbers.search(message)
 
 # tells you the actual text (first occourence)
+# Output 415-555-1011
 print(mo.group())
 
 '''
 To find every occourence of the pattern use the findall()
 '''
+# O/P ['415-555-1011', '222-333-1111']
 print(phoneNumbers.findall(message))
